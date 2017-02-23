@@ -1,0 +1,975 @@
+﻿Log file open, 02/21/17 18:40:26
+LogInit:Display: Running engine for game: CleanMyHouseMrRoboto
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-71041191) SRandInit(-71041191).
+LogTaskGraph: Started task graph with 5 named threads and 16 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.183959
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.11.0(build = 343615) feature version = 0. Client runs version (prod = 1).1.11.0(build = 343615) feature version = 0
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.02.21-23.40.27:699][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.21-23.40.27:699][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.21-23.40.27:714][  0]LogInit: Computer: SOD-SJH-607-03W
+[2017.02.21-23.40.27:714][  0]LogInit: User: graphic
+[2017.02.21-23.40.27:714][  0]LogInit: CPU Page size=65536, Cores=12
+[2017.02.21-23.40.27:714][  0]LogInit: High frequency timer resolution =2.597654 MHz
+[2017.02.21-23.40.27:714][  0]LogMemory: Memory total: Physical=24.0GB (24GB approx)
+[2017.02.21-23.40.27:714][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.21-23.40.27:714][  0]LogMemory: Process Physical Memory: 260.77 MB used, 260.77 MB peak
+[2017.02.21-23.40.27:714][  0]LogMemory: Process Virtual Memory: 270.43 MB used, 270.43 MB peak
+[2017.02.21-23.40.27:714][  0]LogMemory: Physical Memory: 7268.62 MB used, 24563.53 MB total
+[2017.02.21-23.40.27:714][  0]LogMemory: Virtual Memory: 656.42 MB used, 134217728.00 MB total
+[2017.02.21-23.40.27:747][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.02.21-23.40.28:627][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.21-23.40.28:637][  0]LogD3D11RHI:    0. 'ATI Radeon HD 5800 Series' (Feature Level 11_0)
+[2017.02.21-23.40.28:637][  0]LogD3D11RHI:       1010/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.02.21-23.40.28:638][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.02.21-23.40.28:638][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.02.21-23.40.28:638][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.21-23.40.28:648][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.21-23.40.28:648][  0]LogD3D11RHI:     GPU DeviceId: 0x6898 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.21-23.40.28:648][  0]LogWindows: EnumDisplayDevices:
+[2017.02.21-23.40.28:649][  0]LogWindows:    0. 'ATI Radeon HD 5800 Series' (P:1 D:1)
+[2017.02.21-23.40.28:649][  0]LogWindows:    1. 'ATI Radeon HD 5800 Series' (P:0 D:1)
+[2017.02.21-23.40.28:649][  0]LogWindows:    2. 'ATI Radeon HD 5800 Series' (P:0 D:0)
+[2017.02.21-23.40.28:650][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.02.21-23.40.28:650][  0]LogD3D11RHI:     Adapter Name: ATI Radeon HD 5800 Series
+[2017.02.21-23.40.28:650][  0]LogD3D11RHI:   Driver Version: 15.200.1060.0 (internal:15.200.1060.0, unified:15.200.1060.0)
+[2017.02.21-23.40.28:650][  0]LogD3D11RHI:      Driver Date: 7-15-2015
+[2017.02.21-23.40.28:650][  0]LogRHI: Texture pool is 707 MB (70% of 1010 MB)
+[2017.02.21-23.40.28:660][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.21-23.40.28:676][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.02.21-23.40.28:676][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Intermediate/Shaders/WorkingDirectory/12144/).
+[2017.02.21-23.40.28:677][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/graphic/AppData/Local/Temp/UnrealShaderWorkingDir/9332875541858C42A3D179B1556F1B25/'.
+[2017.02.21-23.40.28:677][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.21-23.40.30:078][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.21-23.40.30:088][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.21-23.40.30:099][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.21-23.40.30:110][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.21-23.40.30:121][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.21-23.40.30:130][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.21-23.40.30:140][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.21-23.40.30:149][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.21-23.40.30:158][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.21-23.40.30:168][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.21-23.40.30:177][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.21-23.40.30:196][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.21-23.40.30:196][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.21-23.40.30:197][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.21-23.40.30:221][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.21-23.40.30:232][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.21-23.40.30:243][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.02.21-23.40.30:254][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.21-23.40.30:265][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.21-23.40.30:276][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.21-23.40.30:276][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.21-23.40.30:364][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.21-23.40.30:495][  0]LogDerivedDataCache: Loaded boot cache 0.13s 63MB C:/Users/graphic/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.02.21-23.40.30:495][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/graphic/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.02.21-23.40.30:495][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.21-23.40.30:495][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.21-23.40.30:495][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.21-23.40.30:495][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.21-23.40.30:523][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.21-23.40.30:536][  0]LogDerivedDataCache: Using Local data cache path C:/Users/graphic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.21-23.40.30:884][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.21-23.40.30:888][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.21-23.40.31:019][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.02.21-23.40.31:019][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.21-23.40.31:019][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.02.21-23.40.31:129][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.21-23.40.31:738][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: cleanmyhousemrroboto, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1417749042
+[2017.02.21-23.40.31:783][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2017.02.21-23.40.31:844][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.058277 seconds
+[2017.02.21-23.40.31:850][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2017.02.21-23.40.31:850][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2017.02.21-23.40.31:851][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.21-23.40.31:857][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.21-23.40.32:180][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(a0a7ell)
+[2017.02.21-23.40.32:180][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.21-23.40.32:180][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.21-23.40.33:135][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.02.21-23.40.33:189][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.21-23.40.33:477][  0]SourceControl: Info Source control is disabled
+[2017.02.21-23.40.33:528][  0]SourceControl: Info Source control is disabled
+[2017.02.21-23.40.33:539][  0]SourceControl: Info Source control is disabled
+[2017.02.21-23.40.33:548][  0]SourceControl: Info Source control is disabled
+[2017.02.21-23.40.33:874][  0]LogEngine: Initializing Engine...
+[2017.02.21-23.40.33:875][  0]LogHMD: Oculus plugin initialized. Version: 4.13.2-3172292+++UE4+Release-4.13, LibOVR: 1.11.0, SDK: 1.6.0, built Oct 24 2016, 14:31:11
+[2017.02.21-23.40.34:081][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.02.21-23.40.34:104][  0]LogInit: XAudio2 using 'AMD  DP  Output (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.21-23.40.34:115][  0]LogInit: FAudioDevice initialized.
+[2017.02.21-23.40.34:153][  0]LogDerivedDataCache: Saved boot cache 0.04s 62MB C:/Users/graphic/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.02.21-23.40.34:170][  0]LogInit: Texture streaming: Enabled
+[2017.02.21-23.40.34:446][  0]LogInit: Transaction tracking system initialized
+[2017.02.21-23.40.34:470][  0]BlueprintLog: New page: Editor Load
+[2017.02.21-23.40.34:563][  0]LocalizationService: Info Localization service is disabled
+[2017.02.21-23.40.34:690][  0]LogConsoleResponse:Display: 
+[2017.02.21-23.40.34:937][  0]LogFileCache: Scanning file cache for directory 'C:/Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/' took 0.02s
+[2017.02.21-23.40.34:937][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.02.21-23.40.34:937][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.21-23.40.35:121][  0]SourceControl: Info Source control is disabled
+[2017.02.21-23.40.35:372][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.13/FeaturePacks/StarterContent.upack)
+[2017.02.21-23.40.36:133][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.02.21-23.40.36:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.02.21-23.40.36:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.02.21-23.40.36:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.02.21-23.40.36:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.02.21-23.40.36:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.02.21-23.40.36:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.02.21-23.40.36:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.02.21-23.40.36:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.02.21-23.40.36:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.02.21-23.40.36:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.02.21-23.40.36:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.02.21-23.40.36:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.02.21-23.40.36:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.02.21-23.40.36:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.02.21-23.40.36:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.02.21-23.40.36:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.02.21-23.40.36:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.02.21-23.40.37:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Fire01.uasset"
+[2017.02.21-23.40.37:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.02.21-23.40.37:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.02.21-23.40.37:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.02.21-23.40.37:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Light01.uasset"
+[2017.02.21-23.40.37:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.02.21-23.40.37:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Light02.uasset"
+[2017.02.21-23.40.37:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.02.21-23.40.37:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.02.21-23.40.37:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.02.21-23.40.37:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.02.21-23.40.37:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.02.21-23.40.37:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.02.21-23.40.37:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.02.21-23.40.38:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.02.21-23.40.38:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.02.21-23.40.38:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Steam01.uasset"
+[2017.02.21-23.40.38:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.02.21-23.40.38:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.02.21-23.40.38:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.02.21-23.40.38:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.02.21-23.40.38:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.02.21-23.40.38:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.02.21-23.40.38:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.02.21-23.40.38:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.02.21-23.40.38:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.02.21-23.40.38:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.02.21-23.40.38:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.02.21-23.40.38:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.02.21-23.40.38:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.02.21-23.40.39:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.02.21-23.40.39:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.02.21-23.40.39:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.02.21-23.40.39:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.02.21-23.40.43:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.02.21-23.40.43:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.02.21-23.40.43:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.02.21-23.40.43:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Maps/StarterMap.umap"
+[2017.02.21-23.40.43:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.02.21-23.40.43:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.02.21-23.40.43:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.02.21-23.40.44:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.02.21-23.40.44:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.02.21-23.40.44:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.02.21-23.40.44:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.02.21-23.40.44:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.02.21-23.40.44:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.02.21-23.40.44:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.02.21-23.40.44:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.02.21-23.40.44:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.02.21-23.40.44:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.02.21-23.40.44:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.02.21-23.40.44:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.02.21-23.40.44:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.02.21-23.40.44:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.02.21-23.40.44:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.02.21-23.40.44:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.02.21-23.40.44:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.02.21-23.40.44:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.02.21-23.40.44:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.02.21-23.40.44:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.02.21-23.40.44:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.02.21-23.40.44:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.02.21-23.40.45:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.02.21-23.40.45:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.02.21-23.40.45:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.02.21-23.40.45:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.02.21-23.40.45:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.02.21-23.40.45:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.02.21-23.40.45:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.02.21-23.40.45:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.02.21-23.40.45:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.02.21-23.40.45:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.02.21-23.40.45:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.02.21-23.40.45:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.02.21-23.40.45:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.02.21-23.40.45:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.02.21-23.40.45:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.02.21-23.40.45:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.02.21-23.40.45:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.02.21-23.40.45:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.02.21-23.40.45:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.02.21-23.40.45:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.02.21-23.40.45:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.02.21-23.40.45:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.02.21-23.40.45:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.02.21-23.40.45:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.02.21-23.40.46:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.02.21-23.40.46:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.02.21-23.40.46:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.02.21-23.40.46:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.02.21-23.40.46:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.02.21-23.40.46:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.02.21-23.40.46:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.02.21-23.40.46:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.02.21-23.40.46:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.02.21-23.40.46:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.02.21-23.40.46:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.02.21-23.40.46:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.02.21-23.40.46:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.02.21-23.40.46:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.02.21-23.40.46:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.02.21-23.40.46:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_Door.uasset"
+[2017.02.21-23.40.46:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.02.21-23.40.46:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.02.21-23.40.46:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.02.21-23.40.46:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.02.21-23.40.46:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.02.21-23.40.46:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.02.21-23.40.46:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.02.21-23.40.46:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.02.21-23.40.47:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.02.21-23.40.47:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.02.21-23.40.47:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.02.21-23.40.47:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.02.21-23.40.47:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.02.21-23.40.47:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.02.21-23.40.47:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.02.21-23.40.47:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.02.21-23.40.47:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.02.21-23.40.47:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.02.21-23.40.47:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.02.21-23.40.47:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.02.21-23.40.47:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.02.21-23.40.47:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.02.21-23.40.47:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.02.21-23.40.47:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.02.21-23.40.47:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.02.21-23.40.47:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.02.21-23.40.47:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.02.21-23.40.47:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.02.21-23.40.47:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.02.21-23.40.47:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.02.21-23.40.47:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.02.21-23.40.47:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.02.21-23.40.47:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.02.21-23.40.48:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.02.21-23.40.48:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.02.21-23.40.48:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.02.21-23.40.48:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.02.21-23.40.48:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.02.21-23.40.48:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.02.21-23.40.48:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.02.21-23.40.48:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.02.21-23.40.48:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.02.21-23.40.48:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.02.21-23.40.48:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.02.21-23.40.48:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.02.21-23.40.48:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.02.21-23.40.48:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.02.21-23.40.49:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.02.21-23.40.49:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.02.21-23.40.49:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.02.21-23.40.49:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.02.21-23.40.50:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.02.21-23.40.50:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.02.21-23.40.50:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.02.21-23.40.50:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.02.21-23.40.51:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.02.21-23.40.51:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.02.21-23.40.51:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.02.21-23.40.51:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.02.21-23.40.51:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.02.21-23.40.51:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.02.21-23.40.51:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.02.21-23.40.51:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.02.21-23.40.52:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.02.21-23.40.52:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.02.21-23.40.52:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.02.21-23.40.52:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.02.21-23.40.52:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.02.21-23.40.52:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.02.21-23.40.53:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.02.21-23.40.53:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.02.21-23.40.53:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.02.21-23.40.53:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.02.21-23.40.54:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.02.21-23.40.54:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.02.21-23.40.54:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.02.21-23.40.54:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.02.21-23.40.55:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.02.21-23.40.55:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.02.21-23.40.55:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.02.21-23.40.55:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.02.21-23.40.55:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.02.21-23.40.56:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.02.21-23.40.56:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.02.21-23.40.56:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.02.21-23.40.56:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.02.21-23.40.56:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.02.21-23.40.56:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.02.21-23.40.56:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.02.21-23.40.57:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.02.21-23.40.57:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.02.21-23.40.57:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.02.21-23.40.57:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.02.21-23.40.57:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.02.21-23.40.58:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.02.21-23.40.58:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.02.21-23.40.58:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.02.21-23.40.59:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.02.21-23.40.59:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.02.21-23.40.59:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.02.21-23.40.59:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.02.21-23.41.00:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.02.21-23.41.00:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.02.21-23.41.00:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.02.21-23.41.00:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.02.21-23.41.01:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.02.21-23.41.01:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.02.21-23.41.02:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.02.21-23.41.02:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.02.21-23.41.02:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.02.21-23.41.02:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.02.21-23.41.02:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.02.21-23.41.02:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.02.21-23.41.03:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.02.21-23.41.03:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.02.21-23.41.03:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.02.21-23.41.03:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.02.21-23.41.04:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.02.21-23.41.04:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.02.21-23.41.04:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.02.21-23.41.04:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.02.21-23.41.04:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.02.21-23.41.04:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.02.21-23.41.04:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.02.21-23.41.05:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.02.21-23.41.05:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.02.21-23.41.05:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.02.21-23.41.05:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.02.21-23.41.05:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.02.21-23.41.05:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.02.21-23.41.05:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.02.21-23.41.05:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.02.21-23.41.05:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.02.21-23.41.06:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.02.21-23.41.06:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.02.21-23.41.06:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.02.21-23.41.06:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.02.21-23.41.06:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.02.21-23.41.07:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.02.21-23.41.07:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.02.21-23.41.07:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.02.21-23.41.07:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.02.21-23.41.07:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.02.21-23.41.08:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.02.21-23.41.08:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.02.21-23.41.08:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.02.21-23.41.08:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.02.21-23.41.10:811][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2017.02.21-23.41.11:449][  0]LogSavePackage: Save=150.41ms
+[2017.02.21-23.41.11:449][  0]LogSavePackage: Moving '../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/Floor_400x400D9B0456F41240733C4653387676030C8.tmp' to '../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.02.21-23.41.11:455][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.02.21-23.41.11:455][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.02.21-23.41.11:459][  0]Cmd: MAP LOAD FILE="../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.21-23.41.11:460][  0]LightingResults: New page: Lighting Build
+[2017.02.21-23.41.11:463][  0]MapCheck: New page: Map Check
+[2017.02.21-23.41.11:463][  0]LightingResults: New page: Lighting Build
+[2017.02.21-23.41.14:961][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.02.21-23.41.15:135][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.21-23.41.15:453][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.21-23.41.15:532][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.474ms to complete.
+[2017.02.21-23.41.15:532][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 4.072
+[2017.02.21-23.41.16:342][  0]LogCollectionManager: Loaded 0 collections in 0.001748 seconds
+[2017.02.21-23.41.16:828][  0]LogFileCache: Scanning file cache for directory 'C:/Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/Collections/' took 0.01s
+[2017.02.21-23.41.16:828][  0]LogFileCache: Scanning file cache for directory 'C:/Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/Developers/graphic/Collections/' took 0.01s
+[2017.02.21-23.41.16:828][  0]LogFileCache: Scanning file cache for directory 'C:/Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/Collections/' took 0.01s
+[2017.02.21-23.41.16:828][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.02.21-23.41.16:863][  0]LogContentBrowser: Native class hierarchy populated in 0.0269 seconds. Added 2141 classes and 415 folders.
+[2017.02.21-23.41.16:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.21-23.41.16:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.02.21-23.41.16:897][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2017.02.21-23.41.16:902][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.02.21-23.41.18:671][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.02.21-23.41.18:742][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.02.21-23.41.19:786][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.21-23.41.20:045][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.21-23.41.20:112][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.02.21-23.41.20:113][  0]LogLoad: (Engine Initialization) Total time: 54.69 seconds
+[2017.02.21-23.41.20:113][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.09 seconds
+[2017.02.21-23.41.20:113][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.02.21-23.41.20:113][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.02.21-23.41.20:122][  0]LogOcInput: OculusInput pre-init called
+[2017.02.21-23.41.20:138][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.11.0
+[2017.02.21-23.41.20:271][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.02.21-23.41.20:783][  0]LogRenderer: Reallocating scene render targets to support 1748x876 (Frame:3).
+[2017.02.21-23.41.28:375][190]LogAssetRegistry: Asset discovery search completed in 56.6150 seconds
+[2017.02.21-23.41.28:376][190]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.02.21-23.41.28:376][190]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2017.02.21-23.43.47:793][248]Cmd: ACTOR SELECT ALL
+[2017.02.21-23.44.37:018][362]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube7)
+[2017.02.21-23.45.32:728][ 68]Cmd: TRANSACTION UNDO
+[2017.02.21-23.45.32:728][ 68]LogEditorTransaction: Undo Scale Actors
+[2017.02.21-23.45.33:313][ 86]Cmd: TRANSACTION UNDO
+[2017.02.21-23.45.33:313][ 86]LogEditorTransaction: Undo Scale Actors
+[2017.02.21-23.45.33:346][ 86]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.ModelComponent_68' invalid (2237 verts, 0 indices).
+[2017.02.21-23.45.33:358][ 86]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.ModelComponent_69' invalid (2237 verts, 0 indices).
+[2017.02.21-23.45.33:366][ 86]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.ModelComponent_70' invalid (2237 verts, 0 indices).
+[2017.02.21-23.45.33:375][ 86]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.ModelComponent_71' invalid (2237 verts, 0 indices).
+[2017.02.21-23.45.52:830][818]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.02.21-23.48.12:785][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall22)
+[2017.02.21-23.48.14:566][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall14)
+[2017.02.21-23.48.20:177][133]LogPhysics:Warning: Scale 'X=0.000 Y=0.950 Z=1.750' is not valid on object '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.ExteriorWall14.StaticMeshComponent0 Wall_400x300'.
+[2017.02.21-23.48.22:209][212]Cmd: TRANSACTION UNDO
+[2017.02.21-23.48.22:209][212]LogEditorTransaction: Undo Scale Actors
+[2017.02.21-23.48.27:154][468]LogPhysics:Warning: Scale 'X=0.000 Y=0.950 Z=1.750' is not valid on object '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.ExteriorWall14.StaticMeshComponent0 Wall_400x300'.
+[2017.02.21-23.48.28:980][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall22)
+[2017.02.21-23.48.33:476][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall15)
+[2017.02.21-23.49.03:597][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2017.02.21-23.49.04:763][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall15)
+[2017.02.21-23.51.26:177][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2017.02.21-23.51.33:041][296]LogSavePackage: Save=687.12ms
+[2017.02.21-23.51.33:041][296]LogSavePackage: Moving '../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/TopDownExampleMap_Auto1495655364E3106090344D689107E7683.tmp' to '../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2017.02.21-23.51.33:043][296]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap
+[2017.02.21-23.51.33:048][296]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.788
+[2017.02.21-23.51.33:048][296]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.788
+[2017.02.21-23.54.45:412][847]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2017.02.21-23.55.04:387][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.02.21-23.55.10:650][593]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2017.02.21-23.58.00:786][ 68]Cmd: DELETE
+[2017.02.21-23.58.00:786][ 68]Cmd: ACTOR DELETE
+[2017.02.21-23.58.00:807][ 68]LogEditorActor: Deleted Actor: Brush
+[2017.02.21-23.58.00:900][ 68]LogEditorActor: Deleted 1 Actors (0.114 secs)
+[2017.02.21-23.58.16:669][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall15)
+[2017.02.21-23.58.20:110][678]LogActorFactory: Actor Factory created Wall_400x300
+[2017.02.21-23.58.21:200][733]LogActorFactory: Actor Factory created Wall_400x300
+[2017.02.21-23.58.22:114][763]LogActorFactory: Actor Factory created Wall_400x300
+[2017.02.22-00.01.15:927][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.02.22-00.01.17:011][ 17]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
+[2017.02.22-00.02.19:548][263]LogSavePackage: Save=413.45ms
+[2017.02.22-00.02.19:548][263]LogSavePackage: Moving '../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/TopDownExampleMap_Auto2067530C9484C362C3AA2FCBA37E12B22.tmp' to '../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap'
+[2017.02.22-00.02.19:550][263]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap
+[2017.02.22-00.02.19:552][263]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.464
+[2017.02.22-00.02.19:552][263]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.464
+[2017.02.22-00.03.06:601][408]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Interior Wall11)
+[2017.02.22-00.03.11:682][543]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
+[2017.02.22-00.03.23:270][906]Cmd: EDIT COPY
+[2017.02.22-00.03.23:820][923]Cmd: EDIT PASTE
+[2017.02.22-00.05.04:502][282]LogActorFactory: Actor Factory created Shape_Cube
+[2017.02.22-00.05.06:473][340]LogActorFactory: Actor Factory created Shape_Cube
+[2017.02.22-00.05.50:871][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Interior Wall11)
+[2017.02.22-00.05.51:907][766]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
+[2017.02.22-00.06.23:345][759]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube3)
+[2017.02.22-00.06.35:428][140]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
+[2017.02.22-00.07.54:671][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube3)
+[2017.02.22-00.08.23:430][475]LogActorFactory: Actor Factory created Shape_Cylinder
+[2017.02.22-00.08.25:794][547]LogActorFactory: Actor Factory created Shape_Cylinder
+[2017.02.22-00.08.48:220][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2017.02.22-00.12.20:609][981]LogSavePackage: Save=439.26ms
+[2017.02.22-00.12.20:609][981]LogSavePackage: Moving '../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/TopDownExampleMap_Auto33A6F9ECE43D797412F630299C51686AA.tmp' to '../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto3.umap'
+[2017.02.22-00.12.20:611][981]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto3.umap
+[2017.02.22-00.12.20:613][981]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.572
+[2017.02.22-00.12.20:613][981]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.572
+[2017.02.22-00.12.29:042][  7]LogActorFactory: Actor Factory created Shape_WideCapsule
+[2017.02.22-00.12.31:770][ 77]LogActorFactory: Actor Factory created Shape_WideCapsule
+[2017.02.22-00.12.52:501][716]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
+[2017.02.22-00.13.01:434][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2017.02.22-00.13.05:719][103]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_WideCapsule)
+[2017.02.22-00.13.29:029][843]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
+[2017.02.22-00.14.36:229][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall12)
+[2017.02.22-00.14.37:460][ 13]Cmd: EDIT COPY
+[2017.02.22-00.14.37:889][ 27]Cmd: EDIT PASTE
+[2017.02.22-00.15.09:921][128]LogPhysics:Warning: Scale 'X=0.000 Y=1.000 Z=1.750' is not valid on object '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.ExteriorWall21.StaticMeshComponent0 Wall_400x300'.
+[2017.02.22-00.15.10:288][139]LogPhysics:Warning: Scale 'X=0.000 Y=1.000 Z=1.750' is not valid on object '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.ExteriorWall21.StaticMeshComponent0 Wall_400x300'.
+[2017.02.22-00.15.16:216][326]Cmd: EDIT COPY
+[2017.02.22-00.15.16:715][342]Cmd: EDIT PASTE
+[2017.02.22-00.15.40:195][ 39]Cmd: EDIT COPY
+[2017.02.22-00.15.40:630][ 52]Cmd: EDIT PASTE
+[2017.02.22-00.17.18:987][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall22)
+[2017.02.22-00.17.23:138][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall15)
+[2017.02.22-00.21.04:434][342]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall22)
+[2017.02.22-00.21.07:543][438]Cmd: EDIT COPY
+[2017.02.22-00.21.08:145][457]Cmd: EDIT PASTE
+[2017.02.22-00.21.16:121][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall25)
+[2017.02.22-00.21.18:053][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall25)
+[2017.02.22-00.21.43:913][534]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
+[2017.02.22-00.21.54:919][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall23)
+[2017.02.22-00.21.56:558][872]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall25)
+[2017.02.22-00.22.07:921][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Interior Wall11)
+[2017.02.22-00.22.11:598][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall25)
+[2017.02.22-00.22.29:268][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall24)
+[2017.02.22-00.23.05:988][987]LogSavePackage: Save=467.33ms
+[2017.02.22-00.23.05:988][987]LogSavePackage: Moving '../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/TopDownExampleMap_Auto4ADC0B29B4BB9DE68E0ACFA8F04B99EA0.tmp' to '../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto4.umap'
+[2017.02.22-00.23.05:989][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto4.umap
+[2017.02.22-00.23.05:994][987]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.589
+[2017.02.22-00.23.05:994][987]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.589
+[2017.02.22-00.33.06:638][175]LogSavePackage: Save=457.69ms
+[2017.02.22-00.33.06:638][175]LogSavePackage: Moving '../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/TopDownExampleMap_Auto5207C8B604DEF1114414521B1AD48202F.tmp' to '../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto5.umap'
+[2017.02.22-00.33.06:639][175]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto5.umap
+[2017.02.22-00.33.06:642][175]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.509
+[2017.02.22-00.33.06:642][175]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.509
+[2017.02.22-00.33.21:582][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall24)
+[2017.02.22-00.34.17:877][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Exterior Wall24)
+[2017.02.22-00.34.33:601][962]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor5)
+[2017.02.22-00.34.59:245][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.02.22-00.35.08:186][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2017.02.22-00.35.12:557][323]Cmd: DELETE
+[2017.02.22-00.35.12:557][323]Cmd: ACTOR DELETE
+[2017.02.22-00.35.12:559][323]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.22-00.35.12:607][323]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2017.02.22-00.35.20:993][603]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2017.02.22-00.35.22:551][654]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2017.02.22-00.35.56:744][779]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.02.22-00.36.11:967][280]Cmd: DELETE
+[2017.02.22-00.36.11:967][280]Cmd: ACTOR DELETE
+[2017.02.22-00.36.11:968][280]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.22-00.36.11:997][280]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2017.02.22-00.36.15:190][376]LogActorFactory: Actor Factory created Wall_400x300
+[2017.02.22-00.36.16:613][422]LogActorFactory: Actor Factory created Wall_400x300
+[2017.02.22-00.42.05:629][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2017.02.22-00.42.19:334][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor9)
+[2017.02.22-00.42.25:106][684]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.02.22-00.42.25:117][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.22-00.42.25:142][684]PIE: New page: PIE session: TopDownExampleMap (Feb 21, 2017, 2:42:25 PM)
+[2017.02.22-00.42.25:151][684]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.02.22-00.42.25:200][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048076s)
+[2017.02.22-00.42.25:201][684]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.02.22-00.42.25:201][684]LogPlayLevel: PIE: World Init took: (0.001558s)
+[2017.02.22-00.42.25:201][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.050053s)
+[2017.02.22-00.42.25:239][684]LogInit: XAudio2 using 'AMD  DP  Output (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-00.42.25:251][684]LogInit: FAudioDevice initialized.
+[2017.02.22-00.42.25:330][684]LogWorld: Game class is 'TopDownGameMode_C'
+[2017.02.22-00.42.25:358][684]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.02.21-19.42.25
+[2017.02.22-00.42.25:369][684]LogWorld: Bringing up level for play took: 0.027630
+[2017.02.22-00.42.25:420][684]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.02.22-00.42.25:478][684]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.02.22-00.42.25:478][684]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-00.42.25:479][684]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-00.42.25:479][684]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-00.42.25:503][684]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-00.42.25:503][684]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.513
+[2017.02.22-00.42.25:503][684]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.02.22-00.42.45:805][663]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.02.22-00.42.45:890][663]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.02.22-00.42.47:620][722]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.02.22-00.42.47:620][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.22-00.42.47:620][722]PIE: New page: PIE session: TopDownExampleMap (Feb 21, 2017, 2:42:47 PM)
+[2017.02.22-00.42.47:620][722]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.02.22-00.42.47:668][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048091s)
+[2017.02.22-00.42.47:670][722]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.02.22-00.42.47:670][722]LogPlayLevel: PIE: World Init took: (0.001416s)
+[2017.02.22-00.42.47:670][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.049900s)
+[2017.02.22-00.42.47:710][722]LogInit: XAudio2 using 'AMD  DP  Output (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-00.42.47:719][722]LogInit: FAudioDevice initialized.
+[2017.02.22-00.42.47:756][722]LogWorld: Game class is 'TopDownGameMode_C'
+[2017.02.22-00.42.47:775][722]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.02.21-19.42.47
+[2017.02.22-00.42.47:776][722]LogWorld: Bringing up level for play took: 0.018278
+[2017.02.22-00.42.47:777][722]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.02.22-00.42.47:777][722]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-00.42.47:777][722]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-00.42.47:777][722]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-00.42.47:778][722]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-00.42.47:778][722]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.237
+[2017.02.22-00.42.47:778][722]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.02.22-00.43.01:799][402]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.02.22-00.43.01:861][402]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.02.22-00.43.17:965][989]LogSavePackage: Save=436.32ms
+[2017.02.22-00.43.17:965][989]LogSavePackage: Moving '../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/TopDownExampleMapED43410D4C341237B9EDDBA69AA31120.tmp' to '../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.02.22-00.43.17:969][989]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.02.22-00.43.19:965][ 53]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.22-00.43.20:305][ 54]Cmd: QUIT_EDITOR
+[2017.02.22-00.43.20:860][ 54]LogExit: Preparing to exit.
+[2017.02.22-00.43.21:541][ 54]LogDirectoryWatcher: A directory notification for 'C:/Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/' was aborted.
+[2017.02.22-00.43.21:582][ 54]LogExit: Editor shut down
+[2017.02.22-00.43.21:582][ 54]LogExit: Transaction tracking system shut down
+[2017.02.22-00.43.21:758][ 54]LogObj: Freed 0b from 0 cluster array pools.
+[2017.02.22-00.43.21:759][ 54]LogExit: Object subsystem successfully closed.
+[2017.02.22-00.43.21:781][ 54]LogD3D11RHI: Shutdown
+[2017.02.22-00.43.21:781][ 54]LogD3D11RHI: CleanupD3DDevice
+[2017.02.22-00.43.21:950][ 54]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.02.22-00.43.21:976][ 54]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (235)
+[2017.02.22-00.43.21:976][ 54]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (234)
+[2017.02.22-00.43.21:986][ 54]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (233)
+[2017.02.22-00.43.21:986][ 54]LogModuleManager: Shutting down and abandoning module CrashTracker (232)
+[2017.02.22-00.43.21:986][ 54]LogModuleManager: Shutting down and abandoning module SceneOutliner (231)
+[2017.02.22-00.43.21:986][ 54]LogModuleManager: Shutting down and abandoning module WidgetCarousel (230)
+[2017.02.22-00.43.21:986][ 54]LogModuleManager: Shutting down and abandoning module AddContentDialog (229)
+[2017.02.22-00.43.21:986][ 54]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.13/FeaturePacks/' was aborted.
+[2017.02.22-00.43.21:988][ 54]LogModuleManager: Shutting down and abandoning module GameplayTags (228)
+[2017.02.22-00.43.21:988][ 54]LogModuleManager: Shutting down and abandoning module EditorWidgets (227)
+[2017.02.22-00.43.21:988][ 54]LogModuleManager: Shutting down and abandoning module CollectionManager (226)
+[2017.02.22-00.43.21:988][ 54]LogDirectoryWatcher: A directory notification for 'C:/Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/Collections/' was aborted.
+[2017.02.22-00.43.21:988][ 54]LogDirectoryWatcher: A directory notification for 'C:/Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/Developers/graphic/Collections/' was aborted.
+[2017.02.22-00.43.21:988][ 54]LogDirectoryWatcher: A directory notification for 'C:/Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Saved/Collections/' was aborted.
+[2017.02.22-00.43.21:988][ 54]LogModuleManager: Shutting down and abandoning module StatsViewer (225)
+[2017.02.22-00.43.21:988][ 54]LogModuleManager: Shutting down and abandoning module FoliageEdit (224)
+[2017.02.22-00.43.21:988][ 54]LogModuleManager: Shutting down and abandoning module LandscapeEditor (223)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (222)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module ActorPickerMode (221)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module GeometryMode (220)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module TextureAlignMode (219)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module BspMode (218)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module HardwareSurvey (217)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (216)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module SequenceRecorder (215)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module AutomationWorker (214)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (213)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module PlacementMode (212)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (211)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (210)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (209)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (208)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (207)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module Media (206)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (205)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (204)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module SmartSnapping (202)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module SessionServices (201)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module ViewportSnapping (200)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module ViewportInteraction (199)
+[2017.02.22-00.43.21:989][ 54]LogModuleManager: Shutting down and abandoning module LogVisualizer (198)
+[2017.02.22-00.43.21:990][ 54]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (197)
+[2017.02.22-00.43.21:990][ 54]LogModuleManager: Shutting down and abandoning module IntroTutorials (196)
+[2017.02.22-00.43.21:990][ 54]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (195)
+[2017.02.22-00.43.21:990][ 54]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (194)
+[2017.02.22-00.43.21:990][ 54]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (193)
+[2017.02.22-00.43.21:990][ 54]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (192)
+[2017.02.22-00.43.22:982][ 54]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (191)
+[2017.02.22-00.43.22:982][ 54]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (190)
+[2017.02.22-00.43.22:982][ 54]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (189)
+[2017.02.22-00.43.22:982][ 54]LogModuleManager: Shutting down and abandoning module NiagaraEditor (188)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module MergeActors (187)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module SizeMap (186)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module TreeMap (185)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module ReferenceViewer (184)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module LocalizationService (183)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (182)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module HardwareTargeting (181)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (180)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module UndoHistory (179)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module UserFeedback (178)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module XmlParser (177)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module Blutility (176)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (175)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (174)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module InputBindingEditor (173)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (172)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module SettingsEditor (171)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module ProjectLauncher (170)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module SessionFrontend (169)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module ProfilerClient (168)
+[2017.02.22-00.43.22:983][ 54]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (167)
+[2017.02.22-00.43.22:984][ 54]LogModuleManager: Shutting down and abandoning module DeviceManager (166)
+[2017.02.22-00.43.23:039][ 54]LogModuleManager: Shutting down and abandoning module AutomationController (165)
+[2017.02.22-00.43.23:039][ 54]LogModuleManager: Shutting down and abandoning module AutomationWindow (164)
+[2017.02.22-00.43.23:039][ 54]LogModuleManager: Shutting down and abandoning module Layers (163)
+[2017.02.22-00.43.23:039][ 54]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (162)
+[2017.02.22-00.43.23:039][ 54]LogModuleManager: Shutting down and abandoning module DetailCustomizations (161)
+[2017.02.22-00.43.23:039][ 54]LogModuleManager: Shutting down and abandoning module PackagesDialog (160)
+[2017.02.22-00.43.23:039][ 54]LogModuleManager: Shutting down and abandoning module AnimGraph (159)
+[2017.02.22-00.43.23:039][ 54]LogModuleManager: Shutting down and abandoning module Persona (158)
+[2017.02.22-00.43.23:039][ 54]LogModuleManager: Shutting down and abandoning module Kismet (157)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module GraphEditor (156)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module ClassViewer (155)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module Toolbox (154)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module ModuleUI (153)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module MovieSceneTools (152)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module OutputLog (151)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module GammaUI (150)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module Documentation (149)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module Niagara (148)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (147)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module AnalyticsET (146)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module PortalServices (145)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module PortalRpc (144)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module MessagingRpc (143)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module GameplayDebugger (142)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module AITestSuite (141)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module AIModule (140)
+[2017.02.22-00.43.23:040][ 54]LogModuleManager: Shutting down and abandoning module ProfilerService (139)
+[2017.02.22-00.43.23:275][ 54]LogModuleManager: Shutting down and abandoning module TaskGraph (138)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module SlateRemote (137)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module SteamVRController (136)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module SteamVR (135)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module OculusInput (131)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module CableComponent (129)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2017.02.22-00.43.23:276][ 54]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
+[2017.02.22-00.43.23:277][ 54]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
+[2017.02.22-00.43.23:277][ 54]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2017.02.22-00.43.23:277][ 54]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2017.02.22-00.43.23:277][ 54]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2017.02.22-00.43.23:278][ 54]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2017.02.22-00.43.23:279][ 54]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
+[2017.02.22-00.43.23:279][ 54]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2017.02.22-00.43.23:380][ 54]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2017.02.22-00.43.23:481][ 54]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2017.02.22-00.43.23:482][ 54]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2017.02.22-00.43.23:482][ 54]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2017.02.22-00.43.23:485][ 54]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2017.02.22-00.43.23:485][ 54]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2017.02.22-00.43.23:485][ 54]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2017.02.22-00.43.23:485][ 54]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2017.02.22-00.43.23:485][ 54]LogModuleManager: Shutting down and abandoning module Core (67)
+[2017.02.22-00.43.23:485][ 54]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2017.02.22-00.43.23:485][ 54]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.02.22-00.43.23:485][ 54]LogDirectoryWatcher: A directory notification for '../../../../../../Users/graphic/Documents/Unreal Projects/CleanMyHouseMrRoboto 4.13/Content/' was aborted.
+[2017.02.22-00.43.23:485][ 54]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.02.22-00.43.23:486][ 54]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2017.02.22-00.43.23:653][ 54]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2017.02.22-00.43.23:653][ 54]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2017.02.22-00.43.23:653][ 54]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2017.02.22-00.43.23:653][ 54]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2017.02.22-00.43.23:754][ 54]LogDerivedDataCache: Shutdown
+[2017.02.22-00.43.23:754][ 54]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2017.02.22-00.43.23:754][ 54]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2017.02.22-00.43.23:754][ 54]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2017.02.22-00.43.23:754][ 54]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2017.02.22-00.43.23:754][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.02.22-00.43.23:755][ 54]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.02.22-00.43.23:756][ 54]LogHMD: Oculus shutdown.
+[2017.02.22-00.43.23:756][ 54]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2017.02.22-00.43.23:756][ 54]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2017.02.22-00.43.23:756][ 54]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2017.02.22-00.43.23:756][ 54]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2017.02.22-00.43.23:756][ 54]LogOnline:Display: Unloading online subsystem: NULL
+[2017.02.22-00.43.23:756][ 54]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.02.22-00.43.23:756][ 54]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.02.22-00.43.23:756][ 54]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B04BA42B8-4F04-D9D3-43FE-2F834159F163%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=70e2e4fb4af24504b50392ade3626bcc%7C6cfd5292545b456cbf3739c234017898%7C2611ee93-95b9-42f8-b464-9f1611e5c4ad&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.02.22-00.43.23:766][ 54]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.02.22-00.43.23:766][ 54]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.02.22-00.43.23:766][ 54]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.02.22-00.43.23:766][ 54]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.02.22-00.43.23:766][ 54]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.02.22-00.43.23:769][ 54]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.02.22-00.43.23:769][ 54]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.02.22-00.43.23:769][ 54]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.02.22-00.43.23:769][ 54]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.02.22-00.43.23:769][ 54]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.02.22-00.43.23:769][ 54]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.02.22-00.43.23:769][ 54]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.02.22-00.43.23:769][ 54]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.02.22-00.43.23:769][ 54]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.02.22-00.43.23:769][ 54]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.02.22-00.43.23:774][ 54]LogExit: Exiting.
+[2017.02.22-00.43.23:790][ 54]Log file closed, 02/21/17 19:43:23
